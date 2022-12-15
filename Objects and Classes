@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+class playground
+{
+    public:
+    void bench()
+    {
+        cout<<"Sit on the bench";
+    }
+    void bat()
+    {
+        cout<<"Play cricket";
+    }
+    void ball()
+    {
+        cout<<"Play football";
+    }
+};
+int main()
+{
+    playground jersey;
+    jersey.ball();
+}
