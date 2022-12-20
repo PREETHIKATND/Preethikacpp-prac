@@ -1,0 +1,31 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    float n;
+    int cost;
+    cin>>n;
+    if(n<=200)
+    {
+        cost=round(n*0.5);
+        cout<<"Rs."<<cost<<endl;
+    }
+    else if(n<=400)
+    {
+        cost=round((n*0.65)+100);
+        cout<<"Rs."<<cost<<endl;
+    }
+    else if(n<=600)
+    {
+        cost=round((n*0.80)+200);
+        cout<<"Rs."<<cost<<endl;
+     }
+    else if(n>600)
+    {
+        cost=round((n*1.25)+425);
+        cout<<"Rs."<<cost<<endl;
+        
+    }
+    return 0;
+}
