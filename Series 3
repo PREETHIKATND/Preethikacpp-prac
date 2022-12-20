@@ -1,0 +1,13 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int n,i,j=3,val=6;
+    cin>>n;
+    for(i=1;i<=n;i++)
+    {
+        cout<<val<<endl;
+        val=val+j;
+        j=j+2;
+    }
+}
