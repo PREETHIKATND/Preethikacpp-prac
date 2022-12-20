@@ -1,0 +1,28 @@
+#include<iostream>
+#include<cmath>
+using namespace std;
+int main()
+{
+    int A,B,C,n;
+    cin>>A>>B>>C>>n;
+    
+    if(A%n==0)
+    {
+        cout<<"Bike 1 goes into road A"<<endl;
+    }
+    else if(B%n==0)
+    {
+        cout<<"Bike 1 goes into road B"<<endl;
+    }
+    else if(C%n==0)
+    {
+        cout<<"Bike 1 goes into road C"<<endl;
+    }
+
+    else
+    {
+        cout<<"No path exist"<<endl;
+    }
+    return 0;
+}
+
